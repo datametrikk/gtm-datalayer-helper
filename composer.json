@@ -1,0 +1,21 @@
+{
+  "name": "datametrik/gtm-datalayer-helper",
+  "description": "Lightweight PHP utility class for generating standardized Google Tag Manager dataLayer payloads and UTM parameter arrays.",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://datametrik.com/",
+  "authors": [
+    {
+      "name": "Datametrik",
+      "homepage": "https://datametrik.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Datametrik\\GTM\\": "src/"
+    }
+  }
+}
